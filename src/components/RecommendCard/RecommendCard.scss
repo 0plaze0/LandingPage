@@ -1,0 +1,80 @@
+.app__recommendCard {
+  margin: 20px auto;
+  background-color: var(--white-color);
+
+  width: 250px;
+  height: auto;
+  border-radius: 1rem;
+
+  padding: 1rem;
+}
+
+.app__recommendCard-img {
+  width: 100%;
+  padding: 0.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.app__recommendCard-tags {
+  margin: 2px;
+  .tags {
+    margin: 3px;
+    font-size: 12px;
+    background-color: var(--tag-color);
+    padding: 2px 6px;
+    color: var(--secondary-color);
+    font-weight: 500;
+    border-radius: 0.5rem;
+  }
+}
+.app__recommendCard-info {
+  color: var(--gray-color);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  h4 {
+    margin: 0.5rem 0;
+    align-self: center;
+  }
+  p {
+    line-height: 1rem;
+  }
+  .app__recommondedCard-prize {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+    gap: 5px;
+    .cost {
+      font-size: 20px;
+    }
+    .cutCost {
+      font-size: 12px;
+      text-decoration: line-through;
+      align-self: flex-end;
+      color: var(--lightGray-color);
+    }
+    .discount {
+      color: var(--red-color);
+      font-size: 12px;
+    }
+  }
+}
+
+.app__recommendCard-btn {
+  margin-top: 0.5rem;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+}
