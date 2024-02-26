@@ -1,4 +1,5 @@
 import { RiArrowDropDownLine } from "react-icons/ri";
+import "./CoursesCard.scss";
 
 import { FaStar } from "react-icons/fa";
 import { image } from "../../constants";
