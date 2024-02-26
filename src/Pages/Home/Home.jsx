@@ -2,7 +2,7 @@ import "./Home.scss";
 import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 import { BsInfoCircle } from "react-icons/bs";
 import { RiArrowDropDownLine } from "react-icons/ri";
-import { RecommendCourse, Courses } from "./../../components";
+import { RecommendCourse, Courses, SignUp } from "./../../components";
 
 const Home = () => {
   return (
@@ -37,7 +37,7 @@ const Home = () => {
       <Courses />
       <h1>Releated deals you might like for </h1>
       <RecommendCourse />
-      {"ToDo: Sign up and get exclusive deals"}
+      <SignUp />
     </div>
   );
 };

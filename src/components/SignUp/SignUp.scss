@@ -1,0 +1,26 @@
+.app__signup {
+  display: flex;
+  width: 100%;
+  margin: 2rem 0;
+  h1 {
+    flex: 1;
+  }
+}
+
+.app__signup-input {
+  padding: 1rem;
+
+  input {
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem 0 0 1rem;
+  }
+  button {
+    padding: 1rem;
+    border: none;
+    background-color: var(--secondary-color);
+    font-weight: 300;
+    color: var(--white-color);
+    border-radius: 0 1rem 1rem 0;
+  }
+}
