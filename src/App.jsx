@@ -1,10 +1,11 @@
-import { RecommendCourse } from "./components";
+import { RecommendCourse, Courses } from "./components";
 import "./App.scss";
 
 function App() {
   return (
     <div className="app">
-      <RecommendCourse />
+      {/* <RecommendCourse /> */}
+      <Courses />
     </div>
   );
 }
