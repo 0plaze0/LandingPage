@@ -78,4 +78,28 @@ const courseDetails = [
     ratingText: "Expectional",
   },
 ];
-export default { RecommendCourseDetails, courseDetails };
+
+const footerLinks = [
+  {
+    id: 1,
+    title: "Categories",
+    links: [
+      { name: "Web Builder", link: "Web Builder" },
+      { name: "Hosting", link: "Hosting" },
+      { name: "Data Center", link: "Data Center" },
+      { name: "Robotic-Automation", link: "Robotic-Automation" },
+    ],
+  },
+  {
+    id: 2,
+    title: "Contacts",
+    links: [
+      { name: "Contact", link: "Contact" },
+      { name: "Privacy Policy", link: "Privacy Policy" },
+      { name: "Terms of Service", link: "Terms of Service" },
+      { name: "Categories", link: "Categories" },
+      { name: "About", link: "About" },
+    ],
+  },
+];
+export default { RecommendCourseDetails, courseDetails, footerLinks };

@@ -1,6 +1,5 @@
-import { CiTrophy } from "react-icons/ci";
 import { RiArrowDropDownLine } from "react-icons/ri";
-import { IoDiamondOutline } from "react-icons/io5";
+
 import { FaStar } from "react-icons/fa";
 import { image } from "../../constants";
 

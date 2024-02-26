@@ -1,4 +1,4 @@
-import { RecommendCourse, Courses, Navbar } from "./components";
+import { RecommendCourse, Courses, Navbar, Footer } from "./components";
 import "./App.scss";
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
       {/* <RecommendCourse /> */}
       {/* <Courses /> */}
       <Navbar />
+      <Footer />
     </div>
   );
 }
