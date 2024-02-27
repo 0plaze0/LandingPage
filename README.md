@@ -2,7 +2,9 @@
 
 A Landing page for Course selling.
 
-[Live]()
+[Live](https://landing-course-page.netlify.app/)
+
+[Figma Design](https://www.figma.com/file/X5W9FY5FM6WisJZfHPJDts/NextJs%2FReactJs-Assignment-(Copy)?type=design&node-id=1669%3A162202&mode=design&t=eFXisCPHnNdI2MVj-1)
 
 ![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
