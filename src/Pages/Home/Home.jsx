@@ -2,7 +2,7 @@ import "./Home.scss";
 import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 import { BsInfoCircle } from "react-icons/bs";
 import { RiArrowDropDownLine } from "react-icons/ri";
-import { RecommendCourse, Courses, SignUp } from "./../../components";
+import { RecommendCourse, Courses, SignUp, Navbar } from "./../../components";
 
 const Home = () => {
   return (
@@ -35,7 +35,9 @@ const Home = () => {
         <div className="app__filterGist">{`Home > Hosting for All > Hosting > Hosting > Hosting `}</div>
       </div>
       <Courses />
-      <h1>Releated deals you might like for </h1>
+      <h1 className="app__home-relatedTitle">
+        Releated deals you might like for{" "}
+      </h1>
       <RecommendCourse />
       <SignUp />
     </div>

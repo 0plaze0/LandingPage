@@ -11,6 +11,12 @@
     font-weight: normal;
     color: var(--black-color);
     margin: 1rem;
+    @media screen and (max-width: 450px) {
+      font-size: 1.75rem;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    width: 100%;
   }
 }
 .app__title {
@@ -18,15 +24,24 @@
   margin: 1rem 0;
   font-weight: normal;
   color: var(--black-color);
+  @media screen and (max-width: 450px) {
+    display: none;
+  }
 }
 .app__home-info {
   display: flex;
   justify-content: space-between;
+
   div {
     display: flex;
     align-items: center;
     gap: 0.5rem;
     margin: 0.5rem 0;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 450px) {
+    display: none;
   }
 }
 .app__filterTags {
@@ -44,12 +59,24 @@
     background-color: var(--white-color);
     color: var(--lightGray-color);
     border: 1px solid transparent;
+    cursor: pointer;
     &:hover {
       border: 1px solid black;
     }
+  }
+  @media screen and (max-width: 450px) {
+    display: none;
   }
 }
 
 .app__filterGist {
   margin: 1rem 0;
+  @media screen and (max-width: 450px) {
+    display: none;
+  }
+}
+.app__home-relatedTitle {
+  @media screen and (max-width: 450px) {
+    display: none;
+  }
 }

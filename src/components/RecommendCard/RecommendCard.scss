@@ -33,6 +33,10 @@
     color: var(--secondary-color);
     font-weight: 500;
     border-radius: 0.5rem;
+    border: 1px solid transparent;
+    &:hover {
+      border: 1px solid var(--secondary-color);
+    }
   }
 }
 .app__recommendCard-info {
@@ -77,4 +81,8 @@
   border: none;
   background-color: var(--secondary-color);
   color: var(--white-color);
+  cursor: pointer;
+  &:hover {
+    background-color: var(--lightBlue-color);
+  }
 }

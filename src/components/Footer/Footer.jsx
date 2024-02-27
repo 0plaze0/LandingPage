@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
       ))}
       <div className="app__footer-united">
-        United State{" "}
+        United State
         <RiArrowDropDownLine
           style={{ position: "absolute", fontSize: "24px" }}
         />

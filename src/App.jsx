@@ -5,8 +5,6 @@ import "./App.scss";
 function App() {
   return (
     <div className="app">
-      {/* <RecommendCourse /> */}
-      {/* <Courses /> */}
       <Navbar />
       <Home />
       <Footer />

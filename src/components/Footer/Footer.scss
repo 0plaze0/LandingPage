@@ -5,6 +5,12 @@
   background-color: var(--black-color);
   color: var(--white-color);
   padding: 2rem 2rem 5rem 2rem;
+  @media screen and (max-width: 450px) {
+    flex-wrap: wrap;
+    font-size: 0.75rem;
+
+    gap: 1rem;
+  }
 }
 
 .app__footer-links {
@@ -31,10 +37,17 @@
       font-weight: 50;
       text-decoration: none;
       color: var(--white-color);
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
 
 .app__footer-united {
   align-self: center;
+  cursor: pointer;
+  @media screen and (max-width: 450px) {
+    margin-top: 3rem;
+  }
 }

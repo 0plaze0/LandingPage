@@ -6,6 +6,9 @@
   h1 {
     flex: 1;
   }
+  @media screen and (max-width: 450px) {
+    display: none;
+  }
 }
 
 .app__signup-input {
@@ -25,5 +28,9 @@
     font-weight: 300;
     color: var(--white-color);
     border-radius: 0 1rem 1rem 0;
+    cursor: pointer;
+    &:hover {
+      background-color: var(--lightBlue-color);
+    }
   }
 }
